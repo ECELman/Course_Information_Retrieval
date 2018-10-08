@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/itsa_ptc_background"
+    tools:context="com.nuk.information_retrieval_final_project.itsa_ptc_activity">
+
+    <TextView
+        android:id="@+id/rect_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="43dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="106dp"
+        android:background="@drawable/rect_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignTop="@+id/rect_background"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="42dp"
+        android:layout_alignEnd="@+id/rect_background"
+        android:layout_alignStart="@+id/rect_background">
+
+        <TextView
+            android:id="@+id/show_enroll_start_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_white"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:text="TextView"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/show_enroll_end_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_white"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:paddingStart="15dp"
+            android:text="TextView"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/show_hold_result"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_white"
+            android:drawablePadding="5dp"
+            android:paddingStart="15dp"
+            android:gravity="center_vertical"
+            android:text="TextView"
+            android:textSize="14sp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
